@@ -1,54 +1,213 @@
+/* fondos */
 .azul {
     background-color: rgb(55, 181, 212);
 }
 
-h1{
-    color: white;
-    font-family: sans-serif;
-    font-size: 3rem;
+.gris{
+  background-color: rgb(213, 219, 219);
 }
 
-a:link {
-    background-color: rgb(252, 55, 6);
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.caja{
+  background-color: rgb(245, 239, 239);
+  justify-content: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-radius: 0.55rem;
+  border-color: rgb(90, 89, 89);
 }
-  
-.menu a:link {
-  background-color: black;
+
+.what{
+  display: flex;
+}
+.what h2{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  margin: 1rem;
+}
+
+/* letras generales */
+p{
+  color: rgb(44, 43, 43);
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+
+/* img generales */
+img{
+  height: 120px;
+  width: 150px;
+}
+
+/* Easy */
+h1{
   color: white;
-  padding: 14px 25px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1px;
+}
+
+/* enlace log in */
+.logIn{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  margin: 2vw;
+  float:right;
+}
+
+/* logo */
+.logo{
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-left: 15rem;
+}
+
+.monito{
+  display: flex;
+  justify-content: center;
+}
+
+.monito div{
+  width: 35%;
+}
+
+.fotoMonito img{
+  width: 375px;
+  height: 325px;
+  padding-left: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(179, 211, 212);
+  border-radius: 0.55rem;
+  justify-content: space-between;
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: rgb(17, 17, 17);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+h2{
+  margin: 0%;
+  padding: 1rem;
+}
+
+h4{
+  font-size: 0.55rem;
+  margin-bottom: 1px;
+  font-family: sans-serif;
+  color: rgb(36, 35, 35);
+}
+
+h3{
+  color: rgb(29, 28, 28);
+  font-family: sans-serif;
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+
+.info p{
+  font-size: 0.50rem;
+  font-family: sans-serif;
+  padding-right: 50px;
+}
+
+.btSup{
+  background-color: #292b2b;
+  border: none;
+  color: white;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
+  border-radius: 0.55rem;
+  font-size: 0.75rem;
+  font-family: sans-serif;
+  margin-top: 2px;
+  margin-right: 10px;
+  height: max-content;
+  
 }
 
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-  
-.menu li {
-    float: left;
-  }
-  
-.menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-.menu li a:hover {
-    background-color: #111;
+.btNaranja{
+  background-color: #da3c15;
+  border: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.55rem;
+  font-size: 0.90rem;
+  font-family: sans-serif;
+  display: block;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.need{
+  color: rgb(44, 43, 43);
+  font-size: 0.75rem;
+  display: block;
+}
+
+.texto{
+  marging: 10px;
+}
+
+.search-container {
+  float: right;
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 6.5px;
+  font-size: 10px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+form{
+  margin: 0;
+}
 

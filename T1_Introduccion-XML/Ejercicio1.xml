@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE partidos>
+<torneo>
+
+	<fecha_inicio> 15/05/21 </fecha_inicio>
+	<fecha_fin> 15/06/21 </fecha_fin>
+	<partidos>
+		<partido>
+			<fecha> 15/05/21 </fecha>
+			<datos> 
+ 	**falta 		<nombre> Manolito </nombre>
+				<apellido> Rdguez </apellido>
+			</datos>
+			<sets>
+				<set>
+					<resultado> 3 - 6 </resultado>
+				</set>
+					
+				<set>
+					<resultado> 2 - 6 </resultado>
+				</set>
+
+				<set>
+					<resultado> 4 - 6 </resultado>
+				</set>
+
+			</sets>
+
+		</partido>
+
+		<partido>
+
+		</partido>
+	</partidos>
+
+</torneo>
+<torneo>
+
+	<fecha_inicio> 15/05/21 </fecha_inicio>
+	<fecha_fin> 15/06/21 </fecha_fin>
+	<partidos>
+		<partido>
+			<fecha> 15/05/21 </fecha>
+			<datos> 
+ 	**falta 		<nombre> Manolito </nombre>
+				<apellido> Rdguez </apellido>
+			</datos>
+			<sets>
+				<set>
+					<resultado> 3 - 6 </resultado>
+				</set>
+					
+				<set>
+					<resultado> 2 - 6 </resultado>
+				</set>
+
+				<set>
+					<resultado> 4 - 6 </resultado>
+				</set>
+
+			</sets>
+
+		</partido>
+
+		<partido>
+
+		</partido>
+	</partidos>
+
+</torneo>
+<torneo>
+
+	<fecha_inicio> 15/05/21 </fecha_inicio>
+	<fecha_fin> 15/06/21 </fecha_fin>
+	<partidos>
+		<partido>
+			<fecha> 15/05/21 </fecha>
+			<datos> 
+ 	**falta 		<nombre> Manolito </nombre>
+				<apellido> Rdguez </apellido>
+			</datos>
+			<sets>
+				<set>
+					<resultado> 3 - 6 </resultado>
+				</set>
+					
+				<set>
+					<resultado> 2 - 6 </resultado>
+				</set>
+
+				<set>
+					<resultado> 4 - 6 </resultado>
+				</set>
+
+			</sets>
+
+		</partido>
+
+		<partido>
+
+		</partido>
+	</partidos>
+
+</torneo>

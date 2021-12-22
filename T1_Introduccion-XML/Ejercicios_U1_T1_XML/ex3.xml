@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Representar el directorio de direcciones de una empresa. 
+Para organizar dicho directorio debo guardar los distintos edificios que componen una empresa. 
+De los edificios la información que nos interesa es la dirección y el número de plantas. 
+Dentro de cada edificio debemos guardar información de las plantas, su número y 
+el número cuadrados de cada uno de ellas.
+
+Una vez ya estemos dentro de las plantas debemos guardar la información  de los empleados. 
+De ellos guardaremos su puesto, sus datos personales y la extensión telefónica de su puesto.
+
+Al menos 3 de eficiones de al menos 3 plantas cada uno y al menos 5 empleados por planta.
+-->
+<empresa>
+    <edificios>
+        <edificio>
+            <direccion>C/ Marie Curie 13, Sevilla</direccion>
+            <numPlantas>3</numPlantas>
+            <plantas>
+                <planta>
+                    <numero>1</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Pepito</nombre>
+                                <apellidos>Rodríguez Marín</apellidos>
+                            </datos>
+                            <puesto>Repartidor</puesto>
+                            <extensionTelefonica>12</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Eulalia</nombre>
+                                <apellidos>Palma Fernández</apellidos>
+                            </datos>
+                            <puesto>Administrativa</puesto>
+                            <extensionTelefonica>6</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Ernesto</nombre>
+                                <apellidos>Varela Márquez</apellidos>
+                            </datos>
+                            <puesto>Jefe de prensa</puesto>
+                            <extensionTelefonica>9</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Juanita</nombre>
+                                <apellidos>Ramos López</apellidos>
+                            </datos>
+                            <puesto>Redactora jefe</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Alfredo</nombre>
+                                <apellidos>Di Stéfano</apellidos>
+                            </datos>
+                            <puesto>Maquetador</puesto>
+                            <extensionTelefonica>4</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>2</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Juan Fran</nombre>
+                                <apellidos>Pérez Hernández</apellidos>
+                            </datos>
+                            <puesto>Redactor</puesto>
+                            <extensionTelefonica>42</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Encarna</nombre>
+                                <apellidos>Fernández del Río</apellidos>
+                            </datos>
+                            <puesto>Redactora</puesto>
+                            <extensionTelefonica>2</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Luisito</nombre>
+                                <apellidos>Pereira Velázquez</apellidos>
+                            </datos>
+                            <puesto>Redactor</puesto>
+                            <extensionTelefonica>22</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Lolita</nombre>
+                                <apellidos>Flowers Ruiz</apellidos>
+                            </datos>
+                            <puesto>Revisora</puesto>
+                            <extensionTelefonica>23</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Juanito</nombre>
+                                <apellidos>Valderrama Pérez</apellidos>
+                            </datos>
+                            <puesto>Revisor</puesto>
+                            <extensionTelefonica>24</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>3</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Esteban</nombre>
+                                <apellidos>Montesinos del Valle</apellidos>
+                            </datos>
+                            <puesto>Editor</puesto>
+                            <extensionTelefonica>7</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Yeredaia</nombre>
+                                <apellidos>Martínez de la Rosa</apellidos>
+                            </datos>
+                            <puesto>Editora</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Joselito</nombre>
+                                <apellidos>De la Vega Rosales</apellidos>
+                            </datos>
+                            <puesto>Secretario</puesto>
+                            <extensionTelefonica>2</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Marcelina</nombre>
+                                <apellidos>Pereira Alcántara</apellidos>
+                            </datos>
+                            <puesto>Secretaria</puesto>
+                            <extensionTelefonica>5</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Manzanita</nombre>
+                                <apellidos>Rodríguez Martín</apellidos>
+                            </datos>
+                            <puesto>Secretario</puesto>
+                            <extensionTelefonica>2</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+
+        <edificio>
+            <direccion>C/ República Argentina 67, Sevilla</direccion>
+            <numPlantas>3</numPlantas>
+            <plantas>
+                <planta>
+                    <numero>1</numero>
+                    <numCuadrado> 200</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Román</nombre>
+                                <apellidos>Vázquez García</apellidos>
+                            </datos>
+                            <puesto>Telefonista</puesto>
+                            <extensionTelefonica>2</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Maika</nombre>
+                                <apellidos>Ramos Oliver</apellidos> 
+                            </datos>
+                            <puesto>Telefonista</puesto>
+                            <extensionTelefonica>4</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>José Ramón</nombre>
+                                <apellidos>Márquez Vega</apellidos>
+                            </datos>
+                            <puesto>Telefonista</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Lucía</nombre>
+                                <apellidos>Álvarez Guillén</apellidos>
+                            </datos>
+                            <puesto>Telefonista</puesto>
+                            <extensionTelefonica>26</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Torcuato</nombre>
+                                <apellidos>Luca De Tena</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>55</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>2</numero>
+                    <numCuadrado>200 </numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Romualdo</nombre>
+                                <apellidos>Martínez de Irujo</apellidos>
+                            </datos>
+                            <puesto>Pediodista</puesto>
+                            <extensionTelefonica>12</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Conchita</nombre>
+                                <apellidos>Vázquez de la Pera</apellidos>
+                            </datos>
+                            <puesto>Periodista</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Rodriguito</nombre>
+                                <apellidos>Hernández del Palomar</apellidos>
+                            </datos>
+                            <puesto>Jefe de prensa</puesto>
+                            <extensionTelefonica>14</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Charini</nombre>
+                                <apellidos>Moreno Vázquez</apellidos>
+                            </datos>
+                            <puesto>Coordinadora de prensa</puesto>
+                            <extensionTelefonica>11</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>José Carlos</nombre>
+                                <apellidos>López del Cañaveral</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>23</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>3</numero>
+                    <numCuadrado> 200</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Marquito</nombre>
+                                <apellidos>López de Guzmán</apellidos>
+                            </datos>
+                            <puesto>Publicista</puesto>
+                            <extensionTelefonica>43</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Rociíto</nombre>
+                                <apellidos>Imaginero del Real</apellidos>
+                            </datos>
+                            <puesto>Publicista</puesto>
+                            <extensionTelefonica></extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Faé</nombre>
+                                <apellidos>Belmonte García</apellidos>
+                            </datos>
+                            <puesto>Publicista</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Julia</nombre>
+                                <apellidos>Julifrisqui Ramos</apellidos>
+                            </datos>
+                            <puesto>Publicista</puesto>
+                            <extensionTelefonica>88</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Ramoncín</nombre>
+                                <apellidos>Vázquez Quinterito</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>4</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+
+        <edificio>
+            <direccion>C/ Federico García Lorca 19, Sevilla</direccion>
+            <numPlantas>3</numPlantas>
+            <plantas>
+                <planta>
+                    <numero>1</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Robertito</nombre>
+                                <apellidos>García de Blasco</apellidos>
+                            </datos>
+                            <puesto>Atención</puesto>
+                            <extensionTelefonica>22</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Georgina</nombre>
+                                <apellidos>Prieto del Valle</apellidos>
+                            </datos>
+                            <puesto>Atención</puesto>
+                            <extensionTelefonica>23</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Evaristo</nombre>
+                                <apellidos>Márquez del Campo</apellidos>
+                            </datos>
+                            <puesto>Control de calidad</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Lucrecia</nombre>
+                                <apellidos>Sánchez de la Vega</apellidos>
+                            </datos>
+                            <puesto>Control de calidad</puesto>
+                            <extensionTelefonica>12</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Marcelino</nombre>
+                                <apellidos>Pan y Vino</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>6</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>2</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                 <nombre>Mario</nombre>
+                                <apellidos>Postigo Catedralicio</apellidos>
+                            </datos>
+                            <puesto>Abogado</puesto>
+                            <extensionTelefonica>12</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>María de la O</nombre>
+                                <apellidos>López del Río</apellidos>
+                            </datos>
+                            <puesto>Abogada</puesto>
+                            <extensionTelefonica>39</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Carlitos</nombre>
+                                <apellidos>Márquez Martín</apellidos>
+                            </datos>
+                            <puesto>Contable</puesto>
+                            <extensionTelefonica>2</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Loli</nombre>
+                                <apellidos>Vázquez López</apellidos>
+                            </datos>
+                            <puesto>Contable</puesto>
+                            <extensionTelefonica>3</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Homer</nombre>
+                                <apellidos>Simpsons Simpsons</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>34</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <numero>3</numero>
+                    <numCuadrado> 150</numCuadrado>
+                    <empleados>
+                        <empleado>
+                            <datos>
+                                <nombre>Manolito</nombre>
+                                <apellidos>Blasco del Río</apellidos>
+                            </datos>
+                            <puesto>Recepcionista</puesto>
+                            <extensionTelefonica>12</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Martita</nombre>
+                                <apellidos>Vázquez Rodríquez</apellidos>
+                            </datos>
+                            <puesto>Recepcionista</puesto>
+                            <extensionTelefonica>33</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Currito</nombre>
+                                <apellidos>Miloja Rey</apellidos>
+                            </datos>
+                            <puesto>Recepcionista</puesto>
+                            <extensionTelefonica>22</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Sandrita</nombre>
+                                <apellidos>Martínez del Real</apellidos>
+                            </datos>
+                            <puesto>Recepcionista</puesto>
+                            <extensionTelefonica>55</extensionTelefonica>
+                        </empleado>
+                        <empleado>
+                            <datos>
+                                <nombre>Anselmo</nombre>
+                                <apellidos>Vega Pérez</apellidos>
+                            </datos>
+                            <puesto>Jefe de planta</puesto>
+                            <extensionTelefonica>34</extensionTelefonica>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+        
+    </edificios>
+</empresa>

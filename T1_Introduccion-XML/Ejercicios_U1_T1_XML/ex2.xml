@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Clúster, máquinas e interfaces -->
+<cluster>
+    <nodos>
+        <nodo>
+            <nombre>Nodo 1</nombre>
+            <ip>192.168.1.0</ip>
+            <maquinasVirtuales>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 1.1</nombreMaquina>
+                    <sistemaOperativo>Ubuntu</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.1.111</ip_Interfaz>
+                            <mac>192:168:1:111</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip_Interfaz>192.168.1.112</ip_Interfaz>
+                            <mac>192:168:1:112</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 1.2</nombreMaquina>
+                    <sistemaOperativo>Windows 10</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.1.121</ip_Interfaz>
+                            <mac>192:168:1:121</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 1.3</nombreMaquina>
+                    <sistemaOperativo>Chrome</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.1.131</ip_Interfaz>
+                            <mac>192:168:1:113</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+            </maquinasVirtuales>    
+        </nodo>
+        
+        <nodo>
+            <nombre>Nodo 2</nombre>
+            <ip>192.168.2.0</ip>
+            <maquinasVirtuales>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 2.1</nombreMaquina>
+                    <sistemaOperativo>Guadalinex</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.2.111</ip_Interfaz>
+                            <mac>192:168:2:111</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip_Interfaz>192.168.2.112</ip_Interfaz>
+                            <mac>192:168:2:112</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 2.2</nombreMaquina>
+                    <sistemaOperativo>Windows 7</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.2.121</ip_Interfaz>
+                            <mac>192:168:2:121</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 2.3</nombreMaquina>
+                    <sistemaOperativo>MAC</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.2.131</ip_Interfaz>
+                            <mac>192:168:1:213</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+            </maquinasVirtuales>    
+        </nodo>
+        
+        <nodo>
+            <nombre>Nodo 3</nombre>
+            <ip>192.168.3.0</ip>
+            <maquinasVirtuales>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 3.1</nombreMaquina>
+                    <sistemaOperativo>Kubuntu</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.3.111</ip_Interfaz>
+                            <mac>192:168:3:111</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip_Interfaz>192.168.3.112</ip_Interfaz>
+                            <mac>192:168:3:112</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 3.2</nombreMaquina>
+                    <sistemaOperativo>Windows 11</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.3.121</ip_Interfaz>
+                            <mac>192:168:3:121</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 3.3</nombreMaquina>
+                    <sistemaOperativo>Fedora</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.1.331</ip_Interfaz>
+                            <mac>192:168:1:313</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+            </maquinasVirtuales>
+        </nodo>
+        
+        <nodo>
+            <nombre>Nodo 4</nombre>
+            <ip>192.168.4.0</ip>
+            <maquinasVirtuales>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.1</nombreMaquina>
+                    <sistemaOperativo>Linux Mint</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.111</ip_Interfaz>
+                            <mac>192:168:4:111</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.112</ip_Interfaz>
+                            <mac>192:168:4:112</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.2</nombreMaquina>
+                    <sistemaOperativo>Windows 8</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.121</ip_Interfaz>
+                            <mac>192:168:4:121</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.3</nombreMaquina>
+                    <sistemaOperativo>Chrome</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.131</ip_Interfaz>
+                            <mac>192:168:4:113</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+            </maquinasVirtuales>    
+        </nodo>
+        
+        <nodo>
+            <nombre>Nodo 4</nombre>
+            <ip>192.168.4.0</ip>
+            <maquinasVirtuales>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.1</nombreMaquina>
+                    <sistemaOperativo>Ubuntu</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.111</ip_Interfaz>
+                            <mac>192:168:4:111</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.112</ip_Interfaz>
+                            <mac>192:168:4:112</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.2</nombreMaquina>
+                    <sistemaOperativo>Windows 10</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.121</ip_Interfaz>
+                            <mac>192:168:4:121</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+                <maquinaVirtual>
+                    <nombreMaquina>Máquina 4.3</nombreMaquina>
+                    <sistemaOperativo>Chrome</sistemaOperativo>
+                    <interfaces>
+                        <interfaz>
+                            <ip_Interfaz>192.168.4.131</ip_Interfaz>
+                            <mac>192:168:4:113</mac>
+                        </interfaz>
+                    </interfaces>
+                </maquinaVirtual>
+            </maquinasVirtuales>    
+        </nodo>
+    </nodos>    
+</cluster>

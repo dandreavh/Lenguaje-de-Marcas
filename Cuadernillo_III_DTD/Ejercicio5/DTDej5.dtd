@@ -1,0 +1,11 @@
+<!ELEMENT discos (disco+)>
+<!ELEMENT disco (titulo, interpretes, pistas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT interpretes (interprete+)>
+<!ELEMENT interprete (nombre, apellidos, rol?)>
+<!ELEMENT pistas (pista+)>
+<!ELEMENT pista (nombre, duracion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>

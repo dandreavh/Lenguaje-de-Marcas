@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discos [
+<!ELEMENT discos (disco+)>
+<!ELEMENT disco (titulo, interpretes, pistas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT interpretes (interprete+)>
+<!ELEMENT interprete (nombre, apellidos, rol?)>
+<!ELEMENT pistas (pista+)>
+<!ELEMENT pista (nombre, duracion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+]>
+<discos>
+    <disco>
+        <titulo>The Rolling Stones</titulo>
+        <interpretes>
+            <interprete>
+                <nombre>Mick</nombre>
+                <apellidos>Jagger</apellidos>
+                <rol>cantante</rol>
+            </interprete>
+            <interprete>
+                <nombre>Keith</nombre>
+                <apellidos>Richards</apellidos>
+                <rol>guitarrista</rol>
+            </interprete>
+            <interprete>
+                <nombre>Brian</nombre>
+                <apellidos>Jones</apellidos>
+            </interprete>
+        </interpretes>
+        <pistas>
+            <pista>
+                <nombre>Route 66</nombre>
+                <duracion>2:57</duracion>
+            </pista>
+            <pista>
+                <nombre>Tell Me (You're Coming Back)</nombre>
+                <duracion>2:47</duracion>
+            </pista>
+        </pistas>
+    </disco>
+    <disco>
+        <titulo>30</titulo>
+        <interpretes>
+            <interprete>
+                <nombre>Adele</nombre>
+                <apellidos>Blue</apellidos>
+            </interprete>
+        </interpretes>
+        <pistas>
+            <pista>
+                <nombre>Easy On Me</nombre>
+                <duracion>3:32</duracion>
+            </pista>
+        </pistas>
+    </disco>
+</discos>

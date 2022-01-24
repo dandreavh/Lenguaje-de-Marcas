@@ -22,11 +22,13 @@
         </interpretes>
         <pistas>
             <pista>
-                <nombre>Route 66</nombre>
+                <numero>1</numero>
+                <cancion>Route 66</cancion>
                 <duracion>2:57</duracion>
             </pista>
             <pista>
-                <nombre>Tell Me (You're Coming Back)</nombre>
+                <numero>2</numero>
+                <cancion>Tell Me (You're Coming Back)</cancion>
                 <duracion>2:47</duracion>
             </pista>
         </pistas>
@@ -41,7 +43,8 @@
         </interpretes>
         <pistas>
             <pista>
-                <nombre>Easy On Me</nombre>
+                <numero>1</numero>
+                <cancion>Easy On Me</cancion>
                 <duracion>3:32</duracion>
             </pista>
         </pistas>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ej5.xsd">
+    <libro>
+        <codigo>N555</codigo>
+        <categoria>Novela</categoria>
+        <titulo>El árbol de la ciencia</titulo>
+        <autores>
+            <autor>
+                <nombre>Pío</nombre>
+                <apellidos>Baroja</apellidos>
+                <pseudonimo>Pío Quinto</pseudonimo>
+            </autor>
+        </autores>
+        <num_paginas>272</num_paginas>
+        <anio_publicacion>1911</anio_publicacion>
+    </libro>
+    <libro>
+        <codigo>T222</codigo>
+        <categoria>Teatro</categoria>
+        <titulo>Historia de una escalera</titulo>
+        <autores>
+            <autor>
+                <nombre>Antonio</nombre>
+                <apellidos>Buero Vallejo</apellidos>
+            </autor>
+        </autores>
+        <num_paginas>160</num_paginas>
+        <anio_publicacion>1949</anio_publicacion>
+    </libro>
+</libros>

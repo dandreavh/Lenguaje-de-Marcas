@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="">
+    <Titulo>La sombra del código</Titulo>
+    <Seccion>2333</Seccion>
+    <SubSeccion>2333-A</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XHTML">
+            <Tema>POO</Tema>
+        </Capitulo>
+        <Separacion/>
+        <Capitulo>
+            <Tema>Herencia</Tema>
+        </Capitulo>
+    </Contenido> 
+    <Copyright>@iesalixar</Copyright>
+</Libro>

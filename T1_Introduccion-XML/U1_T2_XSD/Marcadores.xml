@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MarcadoresXSD.xsd">
+    <page>
+        <name>IESAlixar</name>
+        <description>Our High School</description>
+        <url>http://www.iesalixar.org</url>
+    </page>
+    <page>
+        <name>Wikipedia</name>
+        <description>The free enclyclopedia</description>
+        <url>http://www.wikipedia.org</url>
+    </page>
+    <page>
+        <name>W3C</name>
+        <description>World Wide Web Consortium</description>
+        <url>http://www.w3c.org</url>
+    </page>
+</bookmarks>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="123" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson>Peter</orderperson>
+    <shipto>
+        <name>Anne</name>
+        <address>Freedom Street, 8</address>
+        <city>Dreamland</city>
+        <country>La La Land</country>
+    </shipto>
+    <item>
+        <title>Dreams Box</title>
+        <note>Hello World</note>
+        <quantity>4</quantity>
+        <price>45.50</price>
+    </item>
+    <item>
+        <title>Hopes Box</title>
+        <quantity>4</quantity>
+        <price>55.50</price>
+    </item>
+</shiporder>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "ej2.dtd">
+<libreria catalogo="123455"> 
+    </libro titulo="Nada" editorial="Planeta" autor="Carmen Laforet">
+    <revista marca="1234">
+        <numero>23</numero>
+        <titular>National Geographic</titular>
+        <editorial>NewWorld</editorial>
+    </revista>
+    <revista marca="5678">
+        <numero>14</numero>
+        <titular>Nuevos avances</titular>
+        <editorial>La Editora Moderna</editorial>
+    </revista> 
+
+    </periodico fecha="23-12-2020" nombre="El Periódico">
+    </periodico fecha="15-04-2012" nombre="New York Times" version_web="www.nyt.com">
+</libreria>

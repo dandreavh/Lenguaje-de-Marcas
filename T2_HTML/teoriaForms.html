@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body> 
+    <form>
+        <!-- Etiqueta con área para escribir -->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="name" required placeholder="nombre"/>
+
+
+
+        <select name="Provincias">
+            <optgroup label="Andalucia">
+                <option value="S" selected>Sevilla</option>
+                <option value="M">Málaga</option>
+                <option value="C">Cádiz</option>
+                <option value="H">Huelva</option>
+                <option value="C">Córdoba</option>
+                <option value="J">Jaén</option>
+                <option value="G">Granada</option>
+                <option value="A">Almería</option>
+            </optgroup>
+
+        </select>
+
+        <p>
+            <textarea rows="20" cols="20">
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Illum, quas voluptates odio suscipit nisi 
+                necessitatibus. Eveniet natus incidunt voluptate 
+                quibusdam est, harum beatae nam ipsam aut ut 
+                accusamus officiis deserunt!
+            </textarea>
+        </p>
+
+        
+
+        <fieldset>
+            <legend>Prueba de fieldsett</legend>
+            <button type="submit" name="entra">
+                Entra
+            </button>
+    
+            <button type="reset" name="cancelar">
+                Cancela
+            </button>
+
+            <label>Sexo</label>
+            <input type="radio" name="sexo"> Hombre
+            <input type="radio" name="sexo"> Mujer
+            <input type="checkbox" name="sexo"> Mujer
+
+
+        </fieldset>
+
+        <p>
+            <input list="editores"/>
+            <datalist id="editores">
+                <option value="Word">Word</option>
+                <option value="Notepad">Notepad</option>
+                <option value="Writer">Writer</option>
+            </datalist>
+        </p>
+
+    </form> 
+</body>
+</html>

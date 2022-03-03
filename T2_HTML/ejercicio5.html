@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        legend{
+            background-color: white;
+            border: 2px solid black;
+        }
+        ul{
+            list-style-type:none;
+        }
+        fieldset{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HOJA DE INSCRIPCIÓN</h1>
+    <h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+
+    <form>
+        <fieldset style="background-color:rgb(202, 202, 202) ">
+            <legend>Datos Personales</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><label for="nombre">Apellidos:</label></td>
+                    <td><label for="nombre">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="nombre" required placeholder="nombre"/></td>
+                    <td><input type="text" id="apellidos" required placeholder="apellidos"/></td>
+                    <td><input type="text" id="dni" required placeholder="DNI"/></td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">Localidad nacimiento:</label></td>
+                    <td><label for="provincia">Provincia:</label></td>
+                    <td><label for="fecha">Fecha nacimiento:</label></td>
+                </tr>
+        
+                <tr>
+                    <td><input type="text" id="localidad" required placeholder="localidad de nacimiento"/></td>
+                    <td>
+                        <select id="provincia">
+                            <option selected>Sevilla</option>
+                            <option>Cádiz</option>
+                            <option>Málaga</option>
+                            <option>Granada</option>
+                            <option>Córdoba</option>
+                            <option>Jaén</option>
+                            <option>Huelva</option>
+                            <option>Almería</option>
+                        </select>
+                    </td>
+                    <td><input type="date" id="fecha"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="direccion">Dirección:</label></td>
+                    <td><label for="cp">Código postal:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" id="direccion" required placeholder="dirección" size="35"/></td>
+                    <td><input type="text" id="cp" required placeholder="código postal"/></td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+        <fieldset style="background-color:rgb(255, 234, 189)">
+            <legend>Forma de Acceso</legend>
+            <ul> 
+                <li><input type="radio" value="Directo">Directo
+                    <ul>
+                        <li>
+                            <input type="radio" value="LOGSE">Bachillerato LOGSE. Modalidad
+                            <input type="text" required placeholder="modalidad"/>
+                        </li>
+                        <li>
+                            <input type="radio" value="Exp">Bachillerato experimental
+                        </li>
+                        <li>
+                            <input type="radio" value="COU">COU. Opción
+                            <input type="text" required placeholder="opción"/>
+                        </li>
+                        <li>
+                            <input type="radio" value="FP2">FP2
+                        </li>
+                        <li>
+                            <input type="radio" value="Otros">Otros (especifique)
+                            <input type="text" required placeholder="otros"/>
+                        </li>
+                    </ul>
+                </li>
+                <li><input type="radio" value="PruebaLibre">Prueba libre</li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset style="background-color: rgb(245, 152, 136)">
+            <legend>Documentos Adjuntados</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" value="FotocopDNI">Fotocopia DNI
+                    </td>
+                    <td>
+                        <input type="checkbox" value="CertAcad">Certificado académico
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" value="OtrosDocs">Otros documentos (especifique)
+                        <input type="text" required placeholder="otros"/>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <p>
+            <button type="submit">Enviar Solicitud</button>
+        </p>
+        
+    </form>
+    
+</body>
+</html>

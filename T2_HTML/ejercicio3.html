@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        th, td {
+          border-style: dotted;
+          border-color: #96D4D4;
+        }
+        tr:hover {background-color: #D6EEEE;}
+    </style>
+</head>
+<body>
+    <table >
+        <thead>
+            <caption>Mi horario</caption>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:15</td>
+                <td rowspan="2">LM</td>
+                <td rowspan="2">SI</td>
+                <td>SI</td>
+                <td>SI</td>
+                <td rowspan="2">SI</td>
+            </tr>
+            <tr>
+                <td>9:15</td>
+                <td>ED</td>
+                <td rowspan="2">BD</td>
+                
+            </tr>
+            <tr>
+                <td>10:15</td>
+                <td>BD</td>
+                <td>FOL</td>
+                <td>PG</td>
+                <td>BD</td>
+            </tr>
+            <tr>
+                <td>11:15</td>
+                <th colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <td>11:45</td>
+                <td>BD</td>
+                <td>FOL</td>
+                <td rowspan="3">PG</td>
+                <td>FOL</td>
+                <td>BD</td>
+
+            </tr>
+            <tr>
+                <td>12:45</td>
+                <td rowspan="2">ED</td>
+                <td rowspan="2">PG</td>
+                <td rowspan="2">LM</td>
+                <td rowspan="2">PG</td>
+            </tr>
+            <tr>
+                <td>13:45</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -49,14 +49,14 @@
                     <td><input type="text" id="localidad" required placeholder="localidad de nacimiento"/></td>
                     <td>
                         <select id="provincia">
-                            <option selected>Sevilla</option>
-                            <option>Cádiz</option>
-                            <option>Málaga</option>
-                            <option>Granada</option>
-                            <option>Córdoba</option>
-                            <option>Jaén</option>
-                            <option>Huelva</option>
-                            <option>Almería</option>
+                            <option selected value="Sev">Sevilla</option>
+                            <option value="Cad">Cádiz</option>
+                            <option value="Mal">Málaga</option>
+                            <option value="Gra">Granada</option>
+                            <option value="Cod">Córdoba</option>
+                            <option value="Jae">Jaén</option>
+                            <option value="Hue">Huelva</option>
+                            <option value="Alm">Almería</option>
                         </select>
                     </td>
                     <td><input type="date" id="fecha"/></td>
@@ -77,29 +77,29 @@
         <fieldset style="background-color:rgb(255, 234, 189)">
             <legend>Forma de Acceso</legend>
             <ul> 
-                <li><input type="radio" value="Directo">Directo
+                <li><input type="radio" value="Directo" name="modo">Directo
                     <ul>
                         <li>
-                            <input type="radio" value="LOGSE">Bachillerato LOGSE. Modalidad
+                            <input type="radio" value="LOGSE" name="etapa">Bachillerato LOGSE. Modalidad
                             <input type="text" required placeholder="modalidad"/>
                         </li>
                         <li>
-                            <input type="radio" value="Exp">Bachillerato experimental
+                            <input type="radio" value="Exp" name="etapa">Bachillerato experimental
                         </li>
                         <li>
-                            <input type="radio" value="COU">COU. Opción
+                            <input type="radio" value="COU" name="etapa">COU. Opción
                             <input type="text" required placeholder="opción"/>
                         </li>
                         <li>
-                            <input type="radio" value="FP2">FP2
+                            <input type="radio" value="FP2" name="etapa">FP2
                         </li>
                         <li>
-                            <input type="radio" value="Otros">Otros (especifique)
+                            <input type="radio" value="Otros" name="etapa">Otros (especifique)
                             <input type="text" required placeholder="otros"/>
                         </li>
                     </ul>
                 </li>
-                <li><input type="radio" value="PruebaLibre">Prueba libre</li>
+                <li><input type="radio" value="PruebaLibre" name="modo">Prueba libre</li>
             </ul>
 
         </fieldset>

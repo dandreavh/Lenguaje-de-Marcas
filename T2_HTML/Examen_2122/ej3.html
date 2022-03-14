@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <style>
+        ul{
+            list-style-type:none;
+            padding: 0;
+        }
+        th{
+            background-color: rgb(8, 153, 153);
+        }
+        #botones{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        table, thead, tbody, tfoot, th, tr, td{
+            border-style: dashed;
+            border-color: red;
+            border-collapse: separate;
+            border-width: 1.5px;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+            margin: 0;
+        }
+        thead, tfoot{
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td><h4>Número del catálogo</h4></td>
+                <td><h4>Nombre</h4></td>
+                <td><h4>Imagen</h4></td>
+                <td><h4>Web donde lo encontramos</h4></td>
+                <td><h4>Tienda</h4></td>
+                <td><h4>Precio</h4></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7821562</td>
+                <td>Atari Mini</td>
+                <td>
+                    <a href="http://www.google.es" target="blank">
+                        <img src="./img/monitor.png" alt="Monitor" height="50"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.ebay.es" target="blank">
+                        http://www.ebay.es
+                    </a>
+                </td>
+                <td>E-bay</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>2433243</td>
+                <td>Super Nintendo Mini</td>
+                <td>
+                    <a href="http://www.google.es" target="blank">
+                        <img src="./img/nintendo.png" alt="Nintendo" height="50"/>
+                    </a>
+                </td>
+                <td colspan="2" rowspan="3">
+                    <a href="http://www.amazon.es" target="blank">
+                        http://www.amazon.es
+                    </a>
+                </td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>593922</td>
+                <td>Mega Drive Mini</td>
+                <td>
+                    <a href="http://www.google.es" target="blank">
+                        <img src="./img/sega.png" alt="Sega" height="50"/>
+                    </a>
+                </td>
+                <td>200€</td>
+            </tr>
+            <tr>
+                <td>293944</td>
+                <td>Playstation Mini</td>
+                <td>
+                    <a href="http://www.google.es" target="blank">
+                        <img src="./img/play.png" alt="Playtation" height="50"/>
+                    </a>
+                </td>
+                <td>200€</td>
+            </tr>    
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><h4>Número del catálogo</h4></td>
+                <td><h4>Nombre</h4></td>
+                <td><h4>Imagen</h4></td>
+                <td><h4>Web donde lo encontramos</h4></td>
+                <td><h4>Tienda</h4></td>
+                <td><h4>Precio</h4></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

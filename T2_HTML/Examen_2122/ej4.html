@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <style>
+        form{
+            border-style: ridge;
+            border-color: blue;
+            border-width: 7px;
+            padding: 40px;
+        }
+        legend{
+            color: blue;
+            font-weight: bold;
+        }
+        fieldset{
+            border-style: solid;
+            border-width: 3px;
+            border-color: gray;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        p{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend>General information</legend>
+            <table>
+                <tr>
+                    <td><label for="date">Arrival date:</label></td>
+                    <td><input type="text" size="25"></td>
+                    <td><p>Arrival date is invalid</p></td>
+                </tr>
+                <tr>
+                    <td><label for="nights">Nights:</label></td>
+                    <td><input type="text" size="25"></td>
+                    <td><p>Nights must be a number</p></td>
+                </tr>
+                <tr>
+                    <td><label for="adults">Adults:</label></td>
+                    <td><input type="number" size="2"></td>
+                </tr>
+                <tr>
+                    <td><label for="children">Children:</label></td>
+                    <td><input type="number" size="2"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <table>
+                <tr>
+                    <td><label for="room">Room type:</label></td>
+                    <td><input type="radio" value="Standard" checked>Standard</td>
+                    <td><input type="radio" value="Business">Business</td>
+                    <td><input type="radio" value="Suite">Suite</td>
+                </tr>
+                <tr>
+                    <td><label for="bed">Bed type:</label></td>
+                    <td><input type="radio" value="King" checked>King</td>
+                    <td><input type="radio" value="Double_double">Double Double</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Smoking">Smoking</td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Contact</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" size="30" required></td>
+                    <td><p>Name is required</p></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" size="30"></td>
+                    <td><p>Email address is invalid</p></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="text" size="30"></td>
+                    <td><p>Phone number is invalid</p></td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td>
+                    <button type="submit" name="submitreservation">
+                        Submit Reservation
+                    </button>
+                </td>
+                <td>
+                    <button type="reset" name="reset">
+                        Clear
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

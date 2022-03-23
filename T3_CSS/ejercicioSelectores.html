@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_Selectores</title>
+    <link rel="stylesheet" href="css/ejercicioSelectores.css" type="text/css" />
+</head>
+<body>
+    <table>
+        <thead>
+            <caption>Ejercicio Práctico con Tablas</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    <td colspan="3"><img src="img/ipod-classic-630x450.jpg" alt="iPod" height="50"/></td>
+                    <td colspan="2"><img src="img/apple-ipod-nano-4.jpg" alt="iPodNano" height="50"/></td>
+                </th>
+            </tr>
+            <tr>
+                <td class="col1">Capacidad</td>
+                <td class="fila2">2GB</td>
+                <td class="fila2">4GB</td>
+                <td class="fila2">8GB</td>
+                <td class="fila2">32GB</td>
+                <td class="fila2">2GB</td>
+            </tr>
+
+            <tr>
+                <td class="col1">Colores</td>
+                <td class="blanco">Blanco</td>
+                <td class="blanco">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Dorado</li>
+                    </ul>
+                </td>
+                <td class="blanco">Negro</td>
+                <td colspan="2">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">Pantalla</td>
+                <td colspan="3">3 pulgadas</td>
+                <td colspan="2">7 pulgadas</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" class="col1">Tiempo de Carga</td>
+                <td rowspan="2" colspan="3">1 hora</td>
+                <td colspan="2" id="amarillo">5 horas</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">30 minutos para 75%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

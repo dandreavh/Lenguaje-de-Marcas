@@ -1,0 +1,77 @@
+table{
+    border-collapse: collapse;
+    margin: 0px auto; /* PARA QUE CENTRE!! */
+    width: 100%;
+}
+
+table, th, tr, td{
+    border: solid black 2px;
+}
+
+caption{
+    color: green;
+}
+
+h1{
+    font-size: 1em;
+    font-weight: lighter;
+    color: green;
+    text-align: center;
+}
+
+/* Primera columna verde */
+tbody td:first-child {
+    background-color: green;
+}
+
+/* Primera fila inicial más grande */
+th::first-letter{
+    font-size: 2em;
+}
+
+/* Línea 4 recreo amarilla */
+tbody > tr:nth-child(3) td:nth-child(2){
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* MUY IMPORTANTE */
+label::after{
+    content: "*";
+    color: red;
+}
+
+
+/* COPIADOS */
+/* Cambiar los estado de los enlaces para que:
+ - Nunca estén subrayados
+ - Si están visitados se muestren en rojo
+ - Si no están visitado se muestren en verde */
+
+ a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: green;
+  }
+  
+  a:visited {
+    color: red;
+  }
+  
+  /* Utilizando pseudoselectores hacer que cuando pasemos el ratón sobre la columna del viernes
+  aumente el tamaño de letra al doble */
+  
+  tr th:last-child:hover,
+  tr td:last-child:hover {
+    font-size: 2em;
+  }
+
+  /* Añade un borde rojo que esté separado 5 px a los campos obligatorios */
+    input:required {
+    border: 1px solid red;
+    padding: 10px;
+  }
+

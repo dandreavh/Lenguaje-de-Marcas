@@ -1,0 +1,11 @@
+En la hoja de estilos (CSS) podemos observar que a la página se la han dado estas características:
+
+1. Un color general marrón claro para el fondo, es decir, todo lo que engloba la ventana del explorador.
+
+2. A todos los títulos con etiqueta H1 se les ha puesto un color de letra marrón con un tamaño de 20 puntos.
+
+3. Los separadores (hr) se mostrarán como una línea continua de color azul navy
+
+4. Todos los textos generales incluidos en una etiqueta 'p' tiene un tamaño de letra de 12 puntos y un margen a la izquierda de 15 píxeles. Asimismo, a aquellos párrafos que añadan la clase 'verse' se les dará un color de letra marrón y un margen izquierdo de 60 píxeles.
+
+5. Según los estados de los enlaces se comportan: en su estado "por defecto" tendrán color verdes; cuando hayan sido visitados, se tornarán amarillos, cuando se pase el ratón por encima de ellos se volverán negros y cuando estén en activo azules. 

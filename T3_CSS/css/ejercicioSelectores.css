@@ -6,9 +6,13 @@ caption{
     font-size: x-large;
     margin-bottom: 20px;
 }
-table, tr, td{
-    border: solid black 2px;
+table{
     border-collapse: collapse;
+    margin: 0px auto; /* PARA QUE CENTRE!! */
+}
+
+tr, td{
+    border: solid black 2px;
 }
 
 ul li{
@@ -16,8 +20,12 @@ ul li{
     text-align: left;
 }
 
-td{
+td{ /*  [colspan="2"], [colspan="3"]  --> para hacer los que tengan esos atributos*/
     background-color: blue;
+}
+
+img{
+    height: 50px;
 }
 
 .col1{
@@ -26,7 +34,7 @@ td{
     width: min-content;
 }
 
-.fila2{
+#GB{
     font-size: x-large;
     background-color: grey;
     padding-top: 25px;

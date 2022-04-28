@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(173, 170, 170);
+    text-align: center;
+}
+
+.cajaLateral{
+    border: solid black 0.2rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1%;
+    padding-bottom: 15%;
+    position: fixed;
+    text-align: center;
+    top: 20%;
+    width: min-content;
+}
+
+.cajaLateral ul, li{
+    list-style: none;
+    padding: 0%;
+}
+
+.cajaLateral i{
+    font-size: 2rem;
+}
+
+.principal{
+    background-color: rgb(127, 255, 195);
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 100px auto;
+    padding-bottom: 35%;
+    height: 600px;
+    width: 70%;
+    position: relative;
+}
+
+
+.principal nav{
+    background-color: rgb(63, 62, 62);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+}
+
+nav>div{
+    color: rgb(183, 183, 183);
+    display: inline-block;
+    padding: 1.5%;
+    text-align: left;
+    width: 20%;
+}
+
+figure{
+    background-color: rgb(244, 244, 244);
+    border: solid black 0.1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    padding: 2%;
+    width: 30%;
+    
+}
+
+figure img{
+    width: 95%;
+}
+
+#img1 {
+    left: 23%; 
+    padding: 1rem;
+    position: absolute; 
+    top: 30%;
+    transform: rotate(-45deg); 
+    width: 20%;
+    z-index: 4;
+}
+
+#img2 {
+    left: 33%; 
+    padding: 1rem;
+    position: absolute; 
+    top: 40%;
+    transform: rotate(45deg);
+    width: 20%;
+    z-index: 3;
+}
+
+#img3 {
+    left: 43%; 
+    padding: 1rem;
+    position: absolute; 
+    top: 40%;
+    transform: rotate(-15deg);
+    width: 20%;
+    z-index: 2;
+}
+  
+#img4 {
+    left: 53%; 
+    padding: 1rem;
+    position: absolute; 
+    top: 50%;
+    transform: rotate(15deg);
+    width: 20%;
+    z-index: 1;
+}

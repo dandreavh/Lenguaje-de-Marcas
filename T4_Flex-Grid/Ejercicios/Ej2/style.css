@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+aside{
+    float: left;
+    height: 100%;
+    margin-right: 3%;
+    width: 20%;
+}
+
+aside div{
+    padding-bottom: 5%;
+}
+
+.content{    
+    columns: 3;
+    column-gap: 0%;
+    float: left;
+    width: 76%;
+}
+
+figure{
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin: 0%;
+    margin-bottom: 10%;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+figure img{
+    width: 20%;
+}
+
+figure figcaption{
+    font-size: 0.6rem;
+}
+
+footer{
+    background-color: lightgrey;
+    bottom: 0;
+    height: 8%;
+    padding-top: 1rem;
+    position: fixed;
+    text-align: center;
+    width: 93%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 0.7rem;
+}
+
+.main{
+    height: 600px;
+    padding: 3%;
+    position: relative;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding: 1%;
+}
+
+nav{
+    height: 50px;
+    margin-bottom: 3%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav>div{
+    float: left;
+    width: 25%;
+}

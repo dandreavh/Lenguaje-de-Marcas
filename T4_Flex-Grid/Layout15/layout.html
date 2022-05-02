@@ -13,55 +13,53 @@
   </head>
   <body>
     <!--Lado izquierdo-->
-    <div id="cajaIzquierda">
+    <div id="leftBox">
+      <!--PRIMERA CAJA-->
       <div class="info">
-            <div class="titulo">
-                <h1>EXECUTIVE PROGRAMS</h1>
-                <div>
-                    <i class="fa-solid fa-circle-info"></i>
-                </div>
-            </div>
-            <hr />
-            <!--Barra separadora-->
-            <p>La transformación digital de tu empresa</p>
-            <div>
-            <div>
-                <i class="fa-solid fa-clock"></i>
-                <p>8</p>
-                <p>meses</p>
-            </div>
-            <div>
-                <ul>
-                <li>Presencial</li>
-                </ul>
-            </div>
-            </div>
+        <div class="title">
+          <h1>EXECUTIVE PROGRAMS</h1>
+          <div>
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+        </div>
+        <hr />
+        <p>La transformación digital de tu empresa</p>
+        <div class="details">
+          <i class="fa-solid fa-stopwatch"></i>
+          <div>
+            <p class="bold">8</p>
+            <p>meses</p>
+          </div>
+          <div>
+            <ul>
+              <li class="bold">Presencial</li>
+            </ul>
+          </div>
+        </div>
       </div>
-
+      <!--SEGUNDA CAJA-->
       <div class="info">
-        <div class="titulo">
+        <div class="title">
           <h1>CERTIFICADOS DIGITALES</h1>
           <div>
             <i class="fa-solid fa-circle-info"></i>
           </div>
-          <!--Icono info-->
         </div>
         <hr />
-        <!--Barra separadora-->
         <p>
           Conoce las herramientas de Marketing Online con los cursos
           certificados
         </p>
-        <div class="bloques">
+        <div class="details">
+          <i class="fa-solid fa-stopwatch"></i>
           <div>
-            <i class="fa-solid fa-clock"></i>
-            <p>1</p>
+            <p class="bold">1</p>
             <p>mes</p>
           </div>
           <div>
             <ul>
-              <li>Online y</li>
-              <li>Presencial</li>
+              <li class="bold">Online y</li>
+              <li class="bold">Presencial</li>
             </ul>
           </div>
         </div>
@@ -69,15 +67,19 @@
     </div>
 
     <!--Lado derecho -->
-    <div id="cajaDerecha">
+    <div id="rightBox">
+      <!--CAJA DE DIÁLOGO -->
       <div class="chatBox">
-        <div class="cabecera">
+        <div class="header">
           <p>¡Contacta con nosotros!</p>
-          <!--3 iconos-->
+          <div>
+            <i class="fa-solid fa-table-columns"></i>
+            <i class="fa-solid fa-share-from-square"></i>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
         </div>
-        <div class="presentacion">
-          <img src="./img/woman.jpeg" />
-
+        <div class="intro">
+          <img src="./img/woman.jpeg" class="personalImage" />
           <div>
             <h2>Hakima Castro</h2>
             <h3>
@@ -85,23 +87,19 @@
               Marketing - IM
             </h3>
           </div>
-
-          <img src="./img/im.png" />
+          <img src="./img/im.png" class="logo" />
         </div>
-        <div>
-          <p>
-            Hola, soy Hakima de Internacional de Marketing - IM. Ahora estoy
-            online, ¿puedo ayudarte a elegir alguno de nuestros programas de
-            formación?
-          </p>
-        </div>
-        <div>
-          <input />Escribe aquí tu consulta
+        <p class="message">
+          Hola, soy Hakima de Internacional de Marketing - IM. Ahora estoy
+          online, ¿puedo ayudarte a elegir alguno de nuestros programas de
+          formación?
+        </p>
+        <form>
+          <label for="txt">Escribe aquí tu consulta</label><br>
+          <input type="text" id="txt"><br>
           <button type="submit">Iniciar chat</button>
-        </div>
-        <div>
-          <p>powered by Livebeep.com</p>
-        </div>
+        </form>
+        <p class="foot">powered by Livebeep.com</p>
       </div>
     </div>
   </body>

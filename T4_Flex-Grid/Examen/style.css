@@ -1,0 +1,151 @@
+/*
+GENERALES
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 90%;
+    margin: 5px auto;
+}
+
+/*
+CABECERA
+*/
+
+header{
+    height: 100px;
+}
+
+header div>img{
+    width: 20%;
+    float: left;
+}
+
+header aside{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+header aside img{
+    width: 3%;
+    float: right;
+}
+
+
+header aside input{
+    height: 30px;
+}
+
+nav{
+    height: 30px;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    padding-left: 0px;
+}
+
+
+nav ul li{
+    background-color: rgb(226, 29, 134);
+    color: white;
+    width: 20%;
+    float: left;
+    list-style: none;
+    padding: 1%;
+}
+
+nav ul li:hover{
+    color: rgb(177, 177, 177);
+}
+
+/*
+CUERPO
+*/
+
+main {
+
+    height: 500px;
+    width: 100%;
+}
+
+main .tweet{
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+
+main .tweet h3, main .tweet p{
+    text-align: left;
+}
+
+main .cajon{
+    float: left;
+    width: 80%;
+    margin-top: 2%;
+}
+
+main .cajon .carrousel{
+
+    position: relative;
+}
+
+main .cajon .carrousel div{
+    color: rgb(226, 29, 134);
+    font-weight: bolder;
+}
+
+main .cajon .carrousel div:nth-child(2){
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+main .cajon .carrousel div:nth-child(3){
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+main .cajon .carrousel div:nth-child(4){
+    position: absolute;
+    left: 30px;
+    top: 150px;
+}
+
+main .cajon .carrousel img{
+    width: 80%;
+}
+
+main .cajon .cards>div{
+    border: solid 2px rgb(226, 29, 134);
+    border-radius: 4%;
+    padding: 4%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 4%;
+    height: 200px;
+}
+
+main .cajon .cards img{
+    width: 90%;
+}
+
+/*
+FOOTER
+*/
+footer{
+    height: 100px;
+    background-color: rgb(226, 29, 134);
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
